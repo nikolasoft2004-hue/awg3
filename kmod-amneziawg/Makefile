@@ -31,6 +31,10 @@ define KernelPackage/amneziawg
 		+kmod-crypto-lib-curve25519
 endef
 
+define Package/kmod-amneziawg/description
+	AmneziaWG VPN Kernel Module
+endef
+
 define Build/Prepare
 	$(call Build/Prepare/Default)
 	mkdir -p $(PKG_BUILD_DIR)/$(MAKE_PATH)/kernel
