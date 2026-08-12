@@ -8,6 +8,10 @@ LUCI_PKGARCH:=all
 
 PKG_LICENSE:=Apache-2.0
 
+define Package/luci-proto-amneziawg/description
+  Provides support and Web UI for AmneziaWG VPN
+endef
+
 include $(TOPDIR)/feeds/luci/luci.mk
 
 # call BuildPackage - OpenWrt buildroot signature
