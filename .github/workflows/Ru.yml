@@ -169,7 +169,7 @@ jobs:
         echo "CONFIG_PACKAGE_kmod-amneziawg=y" >> openwrt/.config
         echo "CONFIG_PACKAGE_amneziawg-go=y" >> openwrt/.config
         echo "CONFIG_PACKAGE_amneziawg-tools=y" >> openwrt/.config
-        echo "CONFIG_PACKAGE_luci-proto-amneziawg=y" >> openwrt/.config
+        echo "CONFIG_PACKAGE_luci-app-amneziawg=y" >> openwrt/.config
 
         if [ "${{ env.compile_go }}" = "true" ]; then
           rm -r openwrt/feeds/packages/lang/golang
@@ -186,7 +186,7 @@ jobs:
         set -e -x
         cd openwrt
 
-        make package/luci-proto-amneziawg/{clean,download,prepare,compile} -j$(nproc)
+        make package/luci-app-amneziawg/{clean,download,prepare,compile} -j$(nproc)
 
     - name: Prepare artifacts
       run: |
