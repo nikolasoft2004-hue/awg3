@@ -4,7 +4,7 @@
 
 # shellcheck disable=SC1091,SC3003,SC3043
 
-AWG=/usr/bin/awg
+AWG=/usr/bin/amneziawg
 if [ ! -x $AWG ]; then
 	logger -t "amneziawg" "error: missing amneziawg-tools (${AWG})"
 	exit 0

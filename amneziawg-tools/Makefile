@@ -40,10 +40,10 @@ define Package/amneziawg-tools/description
 endef
 
 define Package/amneziawg-tools/install
-	$(INSTALL_DIR) $(1)/usr/bin
-	$(INSTALL_BIN) $(PKG_BUILD_DIR)/src/wg $(1)/usr/bin/awg
+	$(INSTALL_DIR) $(1)/usr/bin/
+	$(INSTALL_BIN) $(PKG_BUILD_DIR)/src/wg $(1)/usr/bin/amneziawg
 	$(INSTALL_BIN) ./files/amneziawg_watchdog $(1)/usr/bin/
-	$(INSTALL_DIR) $(1)/lib/netifd/proto
+	$(INSTALL_DIR) $(1)/lib/netifd/proto/
 	$(INSTALL_BIN) ./files/amneziawg.sh $(1)/lib/netifd/proto/
 endef
 

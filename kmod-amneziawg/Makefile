@@ -32,7 +32,7 @@ define KernelPackage/amneziawg
 endef
 
 define Package/kmod-amneziawg/description
-	AmneziaWG VPN Kernel Module
+  AmneziaWG VPN Kernel Module.
 endef
 
 define Build/Prepare
