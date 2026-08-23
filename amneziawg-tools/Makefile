@@ -25,8 +25,11 @@ define Package/amneziawg-tools
   SUBMENU:=VPN
   URL:=https://amnezia.org/
   MAINTAINER:=Amnezia Admin <admin@amnezia.org>
-  TITLE:=AmneziaWG userspace control program (awg)
+  TITLE:=AmneziaWG userspace control program (amneziawg)
   DEPENDS:= \
+	+libc \
+	+ip \
+	+kmod-amneziawg \
         +@BUSYBOX_CONFIG_IP \
         +@BUSYBOX_CONFIG_FEATURE_IP_LINK
 endef
