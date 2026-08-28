@@ -5,7 +5,7 @@ PKG_NAME:=kmod-amneziawg
 LUCI_DESCRIPTION:=AmneziaWG VPN Kernel Module
 
 PKG_VERSION:=3.1.20260827
-PKG_RELEASE:=1
+PKG_RELEASE:=2
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL:=https://github.com/amnezia-vpn/amneziawg-linux-kernel-module.git
