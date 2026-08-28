@@ -4,7 +4,7 @@ include $(INCLUDE_DIR)/kernel.mk
 PKG_NAME:=kmod-amneziawg
 LUCI_DESCRIPTION:=AmneziaWG VPN Kernel Module
 
-PKG_VERSION:=3.1.20260827
+PKG_VERSION:=3.1.20260828
 PKG_RELEASE:=2
 
 PKG_SOURCE_PROTO:=git
