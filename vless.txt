@@ -1,6 +1,8 @@
 vless://57416de2-9255-4d49-9888-6c8cf8ce528a@132.243.207.33:59845?type=tcp&security=reality&fp=chrome&pbk=pU85Kw3aP7KPzU6bsllQfvj6p6skHROuKEgRJ6IVLWE&sid=77&sni=vkontakte.com#🇬🇧 Великобритания
 vless://948df76f-505d-4608-9c76-a933ee3ccc76@46.250.240.80:2053?security=reality&type=tcp&packetEncoding=xudp&sni=www.cloudflare.com&fp=firefox&sid=4cc9dc65f7770115&pbk=CYFeysLf--_IVhxQOCd3ZxLrAVWFFOkJzvIGHOVXN3E#🇬🇧 Великобритания
 vless://9743b4f9-24c3-4e53-8b03-c3b5cd9b71b2@35.234.143.34:443?security=reality&pbk=bx1ylgNlSmg4i-abKzPcSHGMlIE6gdf66Ysjv25ZrE4&sid=1b580f160d965b01&fp=chrome&sni=www.cloudflare.com&type=tcp&headerType=none&host=www.cloudflare.com&path=%2F#🇬🇧 Великобритания
+vless://b7bd69ff-4bc6-565c-89aa-f0fe7fcd8110@104.249.18.218:8443?security=reality&sni=cdn9-15.cachemesh.top&type=xhttp&path=%2Fxhttp&pbk=ZbhM6UKoxyC9hztiqwBSi9f6wcALENfoNADKENSbIUM&sid=de3eb7d4&fp=chrome#🇬🇧 Великобритания
+vless://b7bd69ff-4bc6-565c-89aa-f0fe7fcd8110@auto-3.claudpath.com:8443?encryption=none&security=reality&sni=cdn3-64.cachemesh.top&pbk=pt3dB59uZkPI0a7sQO7zl-adQuiGSES8O548geN2DEc&sid=24e39461&type=xhttp&path=%2Fxhttp&mode=stream-one&fp=chrome#🇬🇧 Великобритания
 vless://cd3bb7d9-7df3-4644-ac05-c260990ac277@66.90.104.43:2083?encryption=none&security=none&type=grpc&mode=gun&authority=&serviceName=vless#🇬🇧 Великобритания
 vless://cd3bb7d9-7df3-4644-ac05-c260990ac277@66.90.104.43:2083?encryption=none&security=none&type=grpc&serviceName=vless#🇬🇧 Великобритания
 vless://cd3bb7d9-7df3-4644-ac05-c260990ac277@66.90.104.43:2083?encryption=none&security=none&type=grpc&serviceName=vless&mode=gun#🇬🇧 Великобритания
